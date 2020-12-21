@@ -1,0 +1,224 @@
+[Tue Sep 29 06:59:39.012529 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:0] mod_wsgi (pid=12466): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 06:59:39.013181 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:0] mod_wsgi (pid=12466): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 06:59:39.013313 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:0] Traceback (most recent call last):
+[Tue Sep 29 06:59:39.013447 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:0]   File "/var/www/fingerprint/runserver.wsgi", line 4, in <module>
+[Tue Sep 29 06:59:39.017288 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:0]     from fingerprint import app as application
+[Tue Sep 29 06:59:39.017518 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:0]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 06:59:39.019975 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:0]     from flask import Flask,render_template
+[Tue Sep 29 06:59:39.020153 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:0] ImportError: No module named flask
+[Tue Sep 29 06:59:40.856420 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:52139] mod_wsgi (pid=12466): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 06:59:40.856650 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:52139] mod_wsgi (pid=12466): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 06:59:40.856868 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:52139] Traceback (most recent call last):
+[Tue Sep 29 06:59:40.857074 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:52139]   File "/var/www/fingerprint/runserver.wsgi", line 4, in <module>
+[Tue Sep 29 06:59:40.857993 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:52139]     from fingerprint import app as application
+[Tue Sep 29 06:59:40.858187 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:52139]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 06:59:40.859069 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:52139]     from flask import Flask,render_template
+[Tue Sep 29 06:59:40.859265 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:52139] ImportError: No module named flask
+[Tue Sep 29 07:02:52.983093 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395] mod_wsgi (pid=12466): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:02:52.983229 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395] mod_wsgi (pid=12466): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:02:52.983358 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395] Traceback (most recent call last):
+[Tue Sep 29 07:02:52.983478 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395]   File "/var/www/fingerprint/runserver.wsgi", line 4, in <module>
+[Tue Sep 29 07:02:52.984044 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395]     from fingerprint import app as application
+[Tue Sep 29 07:02:52.984153 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:02:52.986129 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395]     from flask import Flask,render_template
+[Tue Sep 29 07:02:52.986259 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395] ImportError: No module named flask
+[Tue Sep 29 07:02:54.982397 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:49067] mod_wsgi (pid=12466): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:02:54.982678 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:49067] mod_wsgi (pid=12466): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:02:54.982899 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:49067] Traceback (most recent call last):
+[Tue Sep 29 07:02:54.983127 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:49067]   File "/var/www/fingerprint/runserver.wsgi", line 4, in <module>
+[Tue Sep 29 07:02:54.984042 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:49067]     from fingerprint import app as application
+[Tue Sep 29 07:02:54.984214 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:49067]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:02:54.985082 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:49067]     from flask import Flask,render_template
+[Tue Sep 29 07:02:54.985291 2020] [wsgi:error] [pid 12466:tid 139653752317696] [remote 10.0.2.2:49067] ImportError: No module named flask
+[Tue Sep 29 07:03:03.033282 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395] mod_wsgi (pid=12466): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:03:03.033465 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395] mod_wsgi (pid=12466): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:03:03.033692 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395] Traceback (most recent call last):
+[Tue Sep 29 07:03:03.033857 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395]   File "/var/www/fingerprint/runserver.wsgi", line 4, in <module>
+[Tue Sep 29 07:03:03.034717 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395]     from fingerprint import app as application
+[Tue Sep 29 07:03:03.034872 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:03:03.035667 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395]     from flask import Flask,render_template
+[Tue Sep 29 07:03:03.035847 2020] [wsgi:error] [pid 12466:tid 139653785921280] [remote 10.0.2.2:52395] ImportError: No module named flask
+[Tue Sep 29 07:34:29.859955 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:0] mod_wsgi (pid=12589): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:34:29.860227 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:0] mod_wsgi (pid=12589): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:34:29.860386 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:0] Traceback (most recent call last):
+[Tue Sep 29 07:34:29.860505 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:0]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:34:29.862177 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:0]     from fingerprint import app as application
+[Tue Sep 29 07:34:29.862280 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:0]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:34:29.863920 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:0]     from flask import Flask,render_template
+[Tue Sep 29 07:34:29.864041 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:0] ImportError: No module named flask
+[Tue Sep 29 07:34:31.995047 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819] mod_wsgi (pid=12589): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:34:31.995212 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819] mod_wsgi (pid=12589): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:34:31.995600 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819] Traceback (most recent call last):
+[Tue Sep 29 07:34:31.995797 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:34:31.996862 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819]     from fingerprint import app as application
+[Tue Sep 29 07:34:31.997073 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:34:31.997938 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819]     from flask import Flask,render_template
+[Tue Sep 29 07:34:31.998151 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819] ImportError: No module named flask
+[Tue Sep 29 07:34:32.600693 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819] mod_wsgi (pid=12589): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:34:32.600822 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819] mod_wsgi (pid=12589): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:34:32.600946 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819] Traceback (most recent call last):
+[Tue Sep 29 07:34:32.601061 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:34:32.601571 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819]     from fingerprint import app as application
+[Tue Sep 29 07:34:32.601699 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:34:32.602178 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819]     from flask import Flask,render_template
+[Tue Sep 29 07:34:32.602294 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819] ImportError: No module named flask
+[Tue Sep 29 07:34:32.915285 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:6491] mod_wsgi (pid=12589): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:34:32.915433 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:6491] mod_wsgi (pid=12589): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:34:32.915583 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:6491] Traceback (most recent call last):
+[Tue Sep 29 07:34:32.915725 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:6491]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:34:32.916373 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:6491]     from fingerprint import app as application
+[Tue Sep 29 07:34:32.916502 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:6491]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:34:32.921062 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:6491]     from flask import Flask,render_template
+[Tue Sep 29 07:34:32.921223 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:6491] ImportError: No module named flask
+[Tue Sep 29 07:34:33.188969 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:6747] mod_wsgi (pid=12589): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:34:33.189145 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:6747] mod_wsgi (pid=12589): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:34:33.189429 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:6747] Traceback (most recent call last):
+[Tue Sep 29 07:34:33.189572 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:6747]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:34:33.190279 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:6747]     from fingerprint import app as application
+[Tue Sep 29 07:34:33.190401 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:6747]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:34:33.191029 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:6747]     from flask import Flask,render_template
+[Tue Sep 29 07:34:33.191192 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:6747] ImportError: No module named flask
+[Tue Sep 29 07:34:33.450583 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819] mod_wsgi (pid=12589): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:34:33.450707 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819] mod_wsgi (pid=12589): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:34:33.450833 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819] Traceback (most recent call last):
+[Tue Sep 29 07:34:33.450952 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:34:33.451474 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819]     from fingerprint import app as application
+[Tue Sep 29 07:34:33.451575 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:34:33.452044 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819]     from flask import Flask,render_template
+[Tue Sep 29 07:34:33.452157 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819] ImportError: No module named flask
+[Tue Sep 29 07:34:33.701047 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819] mod_wsgi (pid=12589): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:34:33.701172 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819] mod_wsgi (pid=12589): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:34:33.701296 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819] Traceback (most recent call last):
+[Tue Sep 29 07:34:33.701415 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:34:33.701993 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819]     from fingerprint import app as application
+[Tue Sep 29 07:34:33.702095 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:34:33.702566 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819]     from flask import Flask,render_template
+[Tue Sep 29 07:34:33.702679 2020] [wsgi:error] [pid 12589:tid 139987440334592] [remote 10.0.2.2:9819] ImportError: No module named flask
+[Tue Sep 29 07:34:33.984004 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819] mod_wsgi (pid=12589): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:34:33.984129 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819] mod_wsgi (pid=12589): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:34:33.984254 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819] Traceback (most recent call last):
+[Tue Sep 29 07:34:33.984440 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:34:33.984944 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819]     from fingerprint import app as application
+[Tue Sep 29 07:34:33.985045 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:34:33.985575 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819]     from flask import Flask,render_template
+[Tue Sep 29 07:34:33.985703 2020] [wsgi:error] [pid 12589:tid 139987406739200] [remote 10.0.2.2:9819] ImportError: No module named flask
+[Tue Sep 29 07:35:47.221959 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:0] mod_wsgi (pid=12717): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:35:47.222331 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:0] mod_wsgi (pid=12717): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:35:47.222496 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:0] Traceback (most recent call last):
+[Tue Sep 29 07:35:47.222598 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:0]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:35:47.225524 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:0]     from fingerprint import app as application
+[Tue Sep 29 07:35:47.225764 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:0]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:35:47.228354 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:0]     from flask import Flask,render_template
+[Tue Sep 29 07:35:47.228636 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:0] ImportError: No module named flask
+[Tue Sep 29 07:35:49.251033 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:53802] mod_wsgi (pid=12717): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:35:49.251296 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:53802] mod_wsgi (pid=12717): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:35:49.251534 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:53802] Traceback (most recent call last):
+[Tue Sep 29 07:35:49.251762 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:53802]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:35:49.252707 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:53802]     from fingerprint import app as application
+[Tue Sep 29 07:35:49.252890 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:53802]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:35:49.253746 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:53802]     from flask import Flask,render_template
+[Tue Sep 29 07:35:49.253940 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:53802] ImportError: No module named flask
+[Tue Sep 29 07:35:49.453863 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802] mod_wsgi (pid=12717): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:35:49.454798 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802] mod_wsgi (pid=12717): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:35:49.454969 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802] Traceback (most recent call last):
+[Tue Sep 29 07:35:49.455239 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:35:49.456437 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802]     from fingerprint import app as application
+[Tue Sep 29 07:35:49.456799 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:35:49.457722 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802]     from flask import Flask,render_template
+[Tue Sep 29 07:35:49.457985 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802] ImportError: No module named flask
+[Tue Sep 29 07:35:49.647246 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:50730] mod_wsgi (pid=12717): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:35:49.647475 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:50730] mod_wsgi (pid=12717): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:35:49.647708 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:50730] Traceback (most recent call last):
+[Tue Sep 29 07:35:49.647869 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:50730]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:35:49.648722 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:50730]     from fingerprint import app as application
+[Tue Sep 29 07:35:49.648914 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:50730]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:35:49.649814 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:50730]     from flask import Flask,render_template
+[Tue Sep 29 07:35:49.650010 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:50730] ImportError: No module named flask
+[Tue Sep 29 07:35:49.838545 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:50730] mod_wsgi (pid=12717): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:35:49.838652 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:50730] mod_wsgi (pid=12717): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:35:49.838753 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:50730] Traceback (most recent call last):
+[Tue Sep 29 07:35:49.839146 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:50730]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:35:49.840462 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:50730]     from fingerprint import app as application
+[Tue Sep 29 07:35:49.840772 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:50730]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:35:49.841722 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:50730]     from flask import Flask,render_template
+[Tue Sep 29 07:35:49.841998 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:50730] ImportError: No module named flask
+[Tue Sep 29 07:35:50.000910 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058] mod_wsgi (pid=12717): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:35:50.001058 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058] mod_wsgi (pid=12717): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:35:50.001198 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058] Traceback (most recent call last):
+[Tue Sep 29 07:35:50.001363 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:35:50.002022 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058]     from fingerprint import app as application
+[Tue Sep 29 07:35:50.002209 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:35:50.002761 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058]     from flask import Flask,render_template
+[Tue Sep 29 07:35:50.002891 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058] ImportError: No module named flask
+[Tue Sep 29 07:35:50.176715 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:54058] mod_wsgi (pid=12717): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:35:50.176967 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:54058] mod_wsgi (pid=12717): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:35:50.177260 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:54058] Traceback (most recent call last):
+[Tue Sep 29 07:35:50.177466 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:54058]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:35:50.178314 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:54058]     from fingerprint import app as application
+[Tue Sep 29 07:35:50.178481 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:54058]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:35:50.179131 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:54058]     from flask import Flask,render_template
+[Tue Sep 29 07:35:50.179268 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:54058] ImportError: No module named flask
+[Tue Sep 29 07:35:50.320761 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058] mod_wsgi (pid=12717): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:35:50.320929 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058] mod_wsgi (pid=12717): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:35:50.321063 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058] Traceback (most recent call last):
+[Tue Sep 29 07:35:50.321351 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:35:50.322806 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058]     from fingerprint import app as application
+[Tue Sep 29 07:35:50.322937 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:35:50.323570 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058]     from flask import Flask,render_template
+[Tue Sep 29 07:35:50.323779 2020] [wsgi:error] [pid 12717:tid 139883516753664] [remote 10.0.2.2:54058] ImportError: No module named flask
+[Tue Sep 29 07:35:50.498358 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802] mod_wsgi (pid=12717): Target WSGI script '/var/www/fingerprint/runserver.wsgi' cannot be loaded as Python module.
+[Tue Sep 29 07:35:50.498597 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802] mod_wsgi (pid=12717): Exception occurred processing WSGI script '/var/www/fingerprint/runserver.wsgi'.
+[Tue Sep 29 07:35:50.498800 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802] Traceback (most recent call last):
+[Tue Sep 29 07:35:50.499018 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802]   File "/var/www/fingerprint/runserver.wsgi", line 5, in <module>
+[Tue Sep 29 07:35:50.499782 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802]     from fingerprint import app as application
+[Tue Sep 29 07:35:50.499937 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802]   File "/var/www/fingerprint/__init__.py", line 2, in <module>
+[Tue Sep 29 07:35:50.500651 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802]     from flask import Flask,render_template
+[Tue Sep 29 07:35:50.500858 2020] [wsgi:error] [pid 12717:tid 139883550349056] [remote 10.0.2.2:53802] ImportError: No module named flask
+[Tue Sep 29 07:47:49.006566 2020] [ssl:warn] [pid 13365:tid 139789023610752] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 07:47:49.006773 2020] [ssl:warn] [pid 13365:tid 139789023610752] AH01909: fingerprint.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Sep 29 07:47:49.050948 2020] [ssl:warn] [pid 13366:tid 139789023610752] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 07:47:49.051093 2020] [ssl:warn] [pid 13366:tid 139789023610752] AH01909: fingerprint.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Sep 29 07:48:30.018925 2020] [ssl:warn] [pid 13488:tid 140035080173440] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 07:48:30.019120 2020] [ssl:warn] [pid 13488:tid 140035080173440] AH01909: fingerprint.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Sep 29 07:48:30.060472 2020] [ssl:warn] [pid 13489:tid 140035080173440] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 07:48:30.060622 2020] [ssl:warn] [pid 13489:tid 140035080173440] AH01909: fingerprint.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Sep 29 07:51:51.366105 2020] [ssl:warn] [pid 13691:tid 140332840863616] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 07:51:51.366351 2020] [ssl:warn] [pid 13691:tid 140332840863616] AH01909: fingerprint.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Sep 29 07:51:51.412572 2020] [ssl:warn] [pid 13692:tid 140332840863616] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 07:51:51.412801 2020] [ssl:warn] [pid 13692:tid 140332840863616] AH01909: fingerprint.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Sep 29 07:53:29.096750 2020] [ssl:warn] [pid 13815:tid 140109766236032] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 07:53:29.096942 2020] [ssl:warn] [pid 13815:tid 140109766236032] AH01909: fingerprint.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Sep 29 07:53:29.140484 2020] [ssl:warn] [pid 13816:tid 140109766236032] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 07:53:29.140646 2020] [ssl:warn] [pid 13816:tid 140109766236032] AH01909: fingerprint.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Sep 29 07:57:22.248724 2020] [ssl:warn] [pid 13976:tid 140100655630208] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 07:57:22.248930 2020] [ssl:warn] [pid 13976:tid 140100655630208] AH01909: fingerprint.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Sep 29 07:57:22.291682 2020] [ssl:warn] [pid 13977:tid 140100655630208] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 07:57:22.291863 2020] [ssl:warn] [pid 13977:tid 140100655630208] AH01909: fingerprint.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Sep 29 08:04:19.196661 2020] [ssl:warn] [pid 14101:tid 139860525594496] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 08:04:19.240354 2020] [ssl:warn] [pid 14102:tid 139860525594496] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 09:53:54.227094 2020] [ssl:warn] [pid 14235:tid 140697769465728] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 09:53:54.272176 2020] [ssl:warn] [pid 14236:tid 140697769465728] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 09:57:16.115987 2020] [ssl:warn] [pid 14352:tid 139863510697856] AH01909: fingerprint.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Sep 29 09:57:16.158615 2020] [ssl:warn] [pid 14353:tid 139863510697856] AH01909: fingerprint.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Sep 29 15:17:04.076044 2020] [ssl:warn] [pid 16988:tid 140150465902464] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:17:04.121395 2020] [ssl:warn] [pid 16989:tid 140150465902464] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:19:18.882847 2020] [ssl:warn] [pid 17119:tid 140630990374784] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:19:18.925980 2020] [ssl:warn] [pid 17120:tid 140630990374784] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:22:08.287779 2020] [ssl:warn] [pid 17248:tid 140425489020800] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:22:08.331499 2020] [ssl:warn] [pid 17249:tid 140425489020800] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:23:30.545144 2020] [ssl:warn] [pid 17375:tid 139904026576768] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:23:30.591909 2020] [ssl:warn] [pid 17376:tid 139904026576768] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:25:21.366978 2020] [ssl:warn] [pid 17514:tid 140561389889408] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:25:21.411047 2020] [ssl:warn] [pid 17515:tid 140561389889408] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:30:56.944795 2020] [ssl:warn] [pid 1701:tid 140064337872768] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:30:56.991901 2020] [ssl:warn] [pid 1702:tid 140064337872768] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:39:42.030942 2020] [ssl:warn] [pid 1820:tid 140256771282816] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:39:42.077917 2020] [ssl:warn] [pid 1821:tid 140256771282816] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:40:37.020703 2020] [ssl:warn] [pid 1947:tid 140285807888256] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:40:37.063635 2020] [ssl:warn] [pid 1948:tid 140285807888256] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:46:50.456927 2020] [ssl:warn] [pid 2081:tid 139859840448384] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Sep 29 15:46:50.499651 2020] [ssl:warn] [pid 2082:tid 139859840448384] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 21 16:36:35.373741 2020] [ssl:warn] [pid 2815:tid 139815418476416] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 21 16:36:35.419406 2020] [ssl:warn] [pid 2816:tid 139815418476416] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 21 16:42:07.923203 2020] [ssl:warn] [pid 2935:tid 139950075574144] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 21 16:42:07.968044 2020] [ssl:warn] [pid 2936:tid 139950075574144] AH01906: fingerprint.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
