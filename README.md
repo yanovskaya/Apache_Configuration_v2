@@ -1,6 +1,11 @@
 # Apache Configuration 
-## Hosts
-- 127.0.0.1 fingerprint.com
-- 127.0.0.1 helloworld.com
+## Инструкция:
+1. Добавить записи из hosts в файл hosts своей системы
+2. Зайти через putty 127.0.0.1:22 
+3. Выбрать ключи из папки data с расширением *.ppk 
+4. Войти в систему под пользователем ```vagrant```
+5. Ввести команду ```source /var/www/start.sh```
+6. Проверить https://fingerprint.com/
+7. Проверить http://helloworld.com/
 
-Let's Encrypt wasn't used because it does not provide certificates for 'localhost' (https://letsencrypt.org/ru/docs/certificates-for-localhost/).
+Самоподписные сертификаты будут перечеркнуты красным.
